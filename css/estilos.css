@@ -1,0 +1,48 @@
+header{
+    min-height: 9rem;
+    background-color:teal
+
+}
+.logo-img{
+    width: 100px
+}
+.navegacion{
+    background-color: teal;
+}
+.redes-sociales{
+   float: right;
+   padding-top: 50px
+}
+.navegacion a{
+    color: aliceblue;
+}
+.adele  {
+    float: right;
+    padding-top: 20px;
+
+}
+.adele  img {
+    width: 25rem;
+    float: right;
+    padding-left: 10px
+}
+.buscador{
+    padding-top: 30px
+}
+
+@media (max-width: 600px) {
+    .buscar{
+        display: none;
+    }
+    .redes-sociales{
+        float: none;
+        padding-left:10rem;
+        padding-top: 0
+    }
+    .adele img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float: none
+    }
+}
